@@ -1,0 +1,17 @@
+name: trajectory_project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8 
+  - pandas
+  - numpy
+  - matplotlib
+  - scipy
+  - seaborn
+  - scikit-learn
+  - tqdm
+  - ipykernel
+  - pip
+  - pip:
+      - awpy
